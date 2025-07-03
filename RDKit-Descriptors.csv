@@ -1,0 +1,197 @@
+﻿Index,Descriptor Name,Type,Description,Dimention,Extended class
+1,BalabanJ,Balaban's J index,"Balaban's J value for a molecule,Chem. Phys. Lett. 89:399-404 (1982).",2,Topological descriptors
+2,BertzCT,BertzCT,"A topological index meant to quantify ""complexity"" of molecules.J. Am. Chem. Soc. 103:3599-601 (1981).",2,Topological descriptors
+3,Chi0,Chi indices,"From equations (1),(9) and (10) of Rev. Comp. Chem. vol 2, 367-422, (1991)",2,Connectivity descriptors
+4,Chi1,Chi indices,"From equations (1),(11) and (12) of Rev. Comp. Chem. vol 2, 367-422, (1991)",2,Connectivity descriptors
+5,Chi0v,Chi indices,"From equations (5),(9) and (10) of Rev. Comp. Chem. vol 2, 367-422, (1991)",2,Connectivity descriptors
+6,Chi1v,Chi indices,"From equations (5),(11) and (12) of Rev. Comp. Chem. vol 2, 367-422, (1991)",2,Connectivity descriptors
+7,Chi2v,Chi indices,"From equations (5),(15) and (16) of Rev. Comp. Chem. vol 2, 367-422, (1991)",2,Connectivity descriptors
+8,Chi3v,Chi indices,"From equations (5),(15) and (16) of Rev. Comp. Chem. vol 2, 367-422, (1991)",2,Connectivity descriptors
+9,Chi4v,Chi indices,"From equations (5),(15) and (16) of Rev. Comp. Chem. vol 2, 367-422, (1991)",2,Connectivity descriptors
+10,Chi0n,Chi indices,"Similar to Hall Kier Chi0v, but uses nVal instead of valence This makes a big difference after we get out of the first row.Rev. Comput. Chem. 2:367-422 (1991).",2,Connectivity descriptors
+11,Chi1n,Chi indices,"Similar to Hall Kier Chi1v, but uses nVal instead of valence.Rev. Comput. Chem. 2:367-422 (1991).",2,Connectivity descriptors
+12,Chi2n,Chi indices,"Similar to Hall Kier Chi2v, but uses nVal instead of valence This makes a big difference after we get out of the first row.Rev. Comput. Chem. 2:367-422 (1991).",2,Connectivity descriptors
+13,Chi3n,Chi indices,"Similar to Hall Kier Chi3v, but uses nVal instead of valence This makes a big difference after we get out of the first row.Rev. Comput. Chem. 2:367-422 (1991).",2,Connectivity descriptors
+14,Chi4n,Chi indices,"Similar to Hall Kier Chi4v, but uses nVal instead of valence.This makes a big difference after we get out of the first row.Rev. Comput. Chem. 2:367-422 (1991).",2,Connectivity descriptors
+15,EState_VSA1,EState_VSA,"MOE-type descriptors using EState indices and surface area contributions (developed at RD, not described in the CCG paper).",2,MOE-type descriptors
+16,EState_VSA2,EState_VSA,"MOE-type descriptors using EState indices and surface area contributions (developed at RD, not described in the CCG paper).",2,MOE-type descriptors
+17,EState_VSA3,EState_VSA,"MOE-type descriptors using EState indices and surface area contributions (developed at RD, not described in the CCG paper).",2,MOE-type descriptors
+18,EState_VSA4,EState_VSA,"MOE-type descriptors using EState indices and surface area contributions (developed at RD, not described in the CCG paper).",2,MOE-type descriptors
+19,EState_VSA5,EState_VSA,"MOE-type descriptors using EState indices and surface area contributions (developed at RD, not described in the CCG paper).",2,MOE-type descriptors
+20,EState_VSA6,EState_VSA,"MOE-type descriptors using EState indices and surface area contributions (developed at RD, not described in the CCG paper).",2,MOE-type descriptors
+21,EState_VSA7,EState_VSA,"MOE-type descriptors using EState indices and surface area contributions (developed at RD, not described in the CCG paper).",2,MOE-type descriptors
+22,EState_VSA8,EState_VSA,"MOE-type descriptors using EState indices and surface area contributions (developed at RD, not described in the CCG paper).",2,MOE-type descriptors
+23,EState_VSA9,EState_VSA,"MOE-type descriptors using EState indices and surface area contributions (developed at RD, not described in the CCG paper).",2,MOE-type descriptors
+24,EState_VSA10,EState_VSA,"MOE-type descriptors using EState indices and surface area contributions (developed at RD, not described in the CCG paper).",2,MOE-type descriptors
+25,EState_VSA11,EState_VSA,"MOE-type descriptors using EState indices and surface area contributions (developed at RD, not described in the CCG paper).",2,MOE-type descriptors
+26,ExactMolWt,ExactMolWt,The molecule's exact molecular weight.,2,Molecular property descriptors
+27,FractionCSP3,FractionCSP3,The fraction of C atoms that are SP3 hybridized.,1,Constitutional descriptors
+28,HallKierAlpha,HallKierAlpha,The Hall-Kier alpha value for a molecule.Rev. Comput. Chem. 2:367-422 (1991).,2,Topological descriptors
+29,HeavyAtomCount,HeavyAtomCount,Number of heavy atoms of a molecule.,1,Constitutional descriptors
+30,HeavyAtomMolWt,HeavyAtomMolWt,The average molecular weight of the molecule ignoring hydrogens,1,Constitutional descriptors
+31,Ipc,Ipc,the information content of the coefficients of the characteristic polynomial of the adjacency matrix of a hydrogen-suppressed graph of a molecule.,2,Topological descriptors
+32,Kappa1,Kappa descriptors,Hall-Kier Kappa1 value,2,Topological descriptors
+33,Kappa2,Kappa descriptors,Hall-Kier Kappa2 value,2,Topological descriptors
+34,Kappa3,Kappa descriptors,Hall-Kier Kappa2 value,2,Topological descriptors
+35,LabuteASA,LabuteASA,Labute's Approximate Surface Area (ASA from MOE),2,MOE-type descriptors
+36,MolLogP,MolLogP,Wildman-Crippen LogP value.Wildman and Crippen JCICS 39:868-73 (1999),2,Molecular property descriptors
+37,MolMR,MolMR,Wildman-Crippen MR value.Wildman and Crippen JCICS 39:868-73 (1999),2,Molecular property descriptors
+38,MolWt,MolWt,The average molecular weight of the molecule,2,Molecular property descriptors
+39,NHOHCount,NHOHCount,Number of NHs or OHs,1,Constitutional descriptors
+40,NOCount,NOCount,Number of Nitrogens and Oxygens,1,Constitutional descriptors
+41,NumAliphaticCarbocycles,NumAliphaticCarbocycles,The number of aliphatic (containing at least one non-aromatic bond) carbocycles for a molecule,1,Constitutional descriptors
+42,NumAliphaticHeterocycles,NumAliphaticHeterocycles,The number of aliphatic (containing at least one non-aromatic bond) heterocycles for a molecule,1,Constitutional descriptors
+43,NumAliphaticRings,NumAliphaticRings,The number of aliphatic (containing at least one non-aromatic bond) rings for a molecule,1,Constitutional descriptors
+44,NumAromaticCarbocycles,NumAromaticCarbocycles,The number of aromatic carbocycles for a molecule,1,Constitutional descriptors
+45,NumAromaticHeterocycles,NumAromaticHeterocycles,The number of aromatic heterocycles for a molecule,1,Constitutional descriptors
+46,NumAromaticRings,NumAromaticRings,The number of aromatic rings for a molecule,1,Constitutional descriptors
+47,NumHAcceptors,NumHAcceptors,Number of Hydrogen Bond Acceptors,1,Constitutional descriptors
+48,NumHDonors,NumHDonors,Number of Hydrogen Bond Donors,1,Constitutional descriptors
+49,NumHeteroatoms,NumHeteroatoms,Number of Heteroatoms,1,Constitutional descriptors
+50,NumRadicalElectrons,NumRadicalElectrons,The number of radical electrons the molecule has (says nothing about spin state),1,Constitutional descriptors
+51,NumRotatableBonds,NumRotatableBonds,Number of Rotatable Bonds,1,Constitutional descriptors
+52,NumSaturatedCarbocycles,NumSaturatedCarbocycles,The number of saturated carbocycles for a molecule,1,Constitutional descriptors
+53,NumSaturatedHeterocycles,NumSaturatedHeterocycles,The number of saturated heterocycles for a molecule,1,Constitutional descriptors
+54,NumSaturatedRings,NumSaturatedRings,The number of saturated rings for a molecule,1,Constitutional descriptors
+55,NumValenceElectrons,NumValenceElectrons,The number of valence electrons the molecule has,1,Constitutional descriptors
+56,PEOE_VSA1,PEOE_VSA,MOE Charge VSA Descriptor 1 (-inf < x < -0.30),2,MOE-type descriptors
+57,PEOE_VSA2,PEOE_VSA,MOE Charge VSA Descriptor 2 (-0.30 <= x < -0.25),2,MOE-type descriptors
+58,PEOE_VSA3,PEOE_VSA,MOE Charge VSA Descriptor 3 (-0.25 <= x < -0.20),2,MOE-type descriptors
+59,PEOE_VSA4,PEOE_VSA,MOE Charge VSA Descriptor 4 (-0.20 <= x < -0.15),2,MOE-type descriptors
+60,PEOE_VSA5,PEOE_VSA,MOE Charge VSA Descriptor 5 (-0.15 <= x < -0.10),2,MOE-type descriptors
+61,PEOE_VSA6,PEOE_VSA,MOE Charge VSA Descriptor 6 (-0.10 <= x < -0.05),2,MOE-type descriptors
+62,PEOE_VSA7,PEOE_VSA,MOE Charge VSA Descriptor 7 (-0.05 <= x < 0.00),2,MOE-type descriptors
+63,PEOE_VSA8,PEOE_VSA,MOE Charge VSA Descriptor 8 ( 0.00 <= x < 0.05),2,MOE-type descriptors
+64,PEOE_VSA9,PEOE_VSA,MOE Charge VSA Descriptor 9 ( 0.05 <= x < 0.10),2,MOE-type descriptors
+65,PEOE_VSA10,PEOE_VSA,MOE Charge VSA Descriptor 10 ( 0.10 <= x < 0.15),2,MOE-type descriptors
+66,PEOE_VSA11,PEOE_VSA,MOE Charge VSA Descriptor 11 ( 0.15 <= x < 0.20),2,MOE-type descriptors
+67,PEOE_VSA12,PEOE_VSA,MOE Charge VSA Descriptor 12 ( 0.20 <= x < 0.25),2,MOE-type descriptors
+68,PEOE_VSA13,PEOE_VSA,MOE Charge VSA Descriptor 13 ( 0.25 <= x < 0.30),2,MOE-type descriptors
+69,PEOE_VSA14,PEOE_VSA,MOE Charge VSA Descriptor 14 ( 0.30 <= x < inf),2,MOE-type descriptors
+70,RingCount,RingCount,The number of rings for a molecule,1,Constitutional descriptors
+71,SMR_VSA1,SMR_VSA,MOE MR VSA Descriptor 1 (-inf < x < 1.29),2,MOE-type descriptors
+72,SMR_VSA2,SMR_VSA,MOE MR VSA Descriptor 2 ( 1.29 <= x < 1.82),2,MOE-type descriptors
+73,SMR_VSA3,SMR_VSA,MOE MR VSA Descriptor 3 ( 1.82 <= x < 2.24),2,MOE-type descriptors
+74,SMR_VSA4,SMR_VSA,MOE MR VSA Descriptor 4 ( 2.24 <= x < 2.45),2,MOE-type descriptors
+75,SMR_VSA5,SMR_VSA,MOE MR VSA Descriptor 5 ( 2.45 <= x < 2.75),2,MOE-type descriptors
+76,SMR_VSA6,SMR_VSA,MOE MR VSA Descriptor 6 ( 2.75 <= x < 3.05),2,MOE-type descriptors
+77,SMR_VSA7,SMR_VSA,MOE MR VSA Descriptor 7 ( 3.05 <= x < 3.63),2,MOE-type descriptors
+78,SMR_VSA8,SMR_VSA,MOE MR VSA Descriptor 8 ( 3.63 <= x < 3.80),2,MOE-type descriptors
+79,SMR_VSA9,SMR_VSA,MOE MR VSA Descriptor 9 ( 3.80 <= x < 4.00),2,MOE-type descriptors
+80,SMR_VSA10,SMR_VSA,MOE MR VSA Descriptor 10 ( 4.00 <= x < inf),2,MOE-type descriptors
+81,SlogP_VSA1,SlogP_VSA,MOE logP VSA Descriptor 1 (-inf < x < -0.40),2,MOE-type descriptors
+82,SlogP_VSA2,SlogP_VSA,MOE logP VSA Descriptor 2 (-0.40 <= x < -0.20),2,MOE-type descriptors
+83,SlogP_VSA3,SlogP_VSA,MOE logP VSA Descriptor 3 (-0.20 <= x < 0.00),2,MOE-type descriptors
+84,SlogP_VSA4,SlogP_VSA,MOE logP VSA Descriptor 4 ( 0.00 <= x < 0.10),2,MOE-type descriptors
+85,SlogP_VSA5,SlogP_VSA,MOE logP VSA Descriptor 5 ( 0.10 <= x < 0.15),2,MOE-type descriptors
+86,SlogP_VSA6,SlogP_VSA,MOE logP VSA Descriptor 6 ( 0.15 <= x < 0.20),2,MOE-type descriptors
+87,SlogP_VSA7,SlogP_VSA,MOE logP VSA Descriptor 7 ( 0.20 <= x < 0.25),2,MOE-type descriptors
+88,SlogP_VSA8,SlogP_VSA,MOE logP VSA Descriptor 8 ( 0.25 <= x < 0.30),2,MOE-type descriptors
+89,SlogP_VSA9,SlogP_VSA,MOE logP VSA Descriptor 9 ( 0.30 <= x < 0.40),2,MOE-type descriptors
+90,SlogP_VSA10,SlogP_VSA,MOE logP VSA Descriptor 10 ( 0.40 <= x < 0.50),2,MOE-type descriptors
+91,SlogP_VSA11,SlogP_VSA,MOE logP VSA Descriptor 11 ( 0.50 <= x < 0.60),2,MOE-type descriptors
+92,SlogP_VSA12,SlogP_VSA,MOE logP VSA Descriptor 12 ( 0.60 <= x < inf),2,MOE-type descriptors
+93,TPSA,TPSA,The polar surface area of a molecule based upon fragments,2,Molecular property descriptors
+94,VSA_EState1,VSA_Estate,VSA EState Descriptor 1 (-inf < x < 4.78),2,MOE-type descriptors
+95,VSA_EState2,VSA_Estate,VSA EState Descriptor 2 ( 4.78 <= x < 5.00),2,MOE-type descriptors
+96,VSA_EState3,VSA_Estate,VSA EState Descriptor 3 ( 5.00 <= x < 5.41),2,MOE-type descriptors
+97,VSA_EState4,VSA_Estate,VSA EState Descriptor 4 ( 5.41 <= x < 5.74),2,MOE-type descriptors
+98,VSA_EState5,VSA_Estate,VSA EState Descriptor 5 ( 5.74 <= x < 6.00),2,MOE-type descriptors
+99,VSA_EState6,VSA_Estate,VSA EState Descriptor 6 ( 6.00 <= x < 6.07),2,MOE-type descriptors
+100,VSA_EState7,VSA_Estate,VSA EState Descriptor 7 ( 6.07 <= x < 6.45),2,MOE-type descriptors
+101,VSA_EState8,VSA_Estate,VSA EState Descriptor 8 ( 6.45 <= x < 7.00),2,MOE-type descriptors
+102,VSA_EState9,VSA_Estate,VSA EState Descriptor 9 ( 7.00 <= x < 11.00),2,MOE-type descriptors
+103,VSA_EState10,VSA_Estate,VSA EState Descriptor 10 ( 11.00 <= x < inf),2,MOE-type descriptors
+104,fr_Al_COO,fr_Al_COO,Number of aliphatic carboxylic acids,1,Constitutional descriptors
+105,fr_Al_OH,fr_Al_OH,Number of aliphatic hydroxyl groups,1,Constitutional descriptors
+106,fr_Al_OH_noTert,fr_Al_OH_noTert,Number of aliphatic hydroxyl groups excluding tert-OH,1,Constitutional descriptors
+107,fr_ArN,fr_ArN,Number of N functional groups attached to aromatics,1,Constitutional descriptors
+108,fr_Ar_COO,fr_Ar_COO,Number of Aromatic carboxylic acide,1,Constitutional descriptors
+109,fr_Ar_N,fr_Ar_N,Number of aromatic nitrogens,1,Constitutional descriptors
+110,fr_Ar_NH,fr_Ar_NH,Number of aromatic amines,1,Constitutional descriptors
+111,fr_Ar_OH,fr_Ar_OH,Number of aromatic hydroxyl groups,1,Constitutional descriptors
+112,fr_COO,fr_COO,Number of carboxylic acids,1,Constitutional descriptors
+113,fr_COO2,fr_COO2,Number of carboxylic acids,1,Constitutional descriptors
+114,fr_C_O,fr_C_O,Number of carbonyl O,1,Constitutional descriptors
+115,fr_C_O_noCOO,fr_C_O_noCOO,"Number of carbonyl O, excluding COOH",1,Constitutional descriptors
+116,fr_C_S,fr_C_S,Number of thiocarbonyl,1,Constitutional descriptors
+117,fr_HOCCN,fr_HOCCN,Number of C(OH)CCN-Ctert-alkyl or C(OH)CCNcyclic,1,Constitutional descriptors
+118,fr_Imine,fr_Imine,Number of Imines,1,Constitutional descriptors
+119,fr_NH0,fr_NH0,Number of Tertiary amines,1,Constitutional descriptors
+120,fr_NH1,fr_NH1,Number of Secondary amines,1,Constitutional descriptors
+121,fr_NH2,fr_NH2,Number of Primary amines,1,Constitutional descriptors
+122,fr_N_O,fr_N_O,Number of hydroxylamine groups,1,Constitutional descriptors
+123,fr_Ndealkylation1,fr_Ndealkylation1,Number of XCCNR groups,1,Constitutional descriptors
+124,fr_Ndealkylation2,fr_Ndealkylation2,"Number of tert-alicyclic amines (no heteroatoms, not quinine-like bridged N)",1,Constitutional descriptors
+125,fr_Nhpyrrole,fr_Nhpyrrole,Number of H-pyrrole nitrogens,1,Constitutional descriptors
+126,fr_SH,fr_SH,Number of thiol groups,1,Constitutional descriptors
+127,fr_aldehyde,fr_aldehyde,Number of aldehydes,1,Constitutional descriptors
+128,fr_alkyl_carbamate,fr_alkyl_carbamate,Number of alkyl carbamates (subject to hydrolysis),1,Constitutional descriptors
+129,fr_alkyl_halide,fr_alkyl_halide,Number of alkyl halides,1,Constitutional descriptors
+130,fr_allylic_oxid,fr_allylic_oxid,Number of allylic oxidation sites excluding steroid dienone,1,Constitutional descriptors
+131,fr_amide,fr_amide,Number of amides,1,Constitutional descriptors
+132,fr_amidine,fr_amidine,Number of amidine groups,1,Constitutional descriptors
+133,fr_aniline,fr_aniline,Number of anilines,1,Constitutional descriptors
+134,fr_aryl_methyl,fr_aryl_methyl,Number of aryl methyl sites for hydroxylation,1,Constitutional descriptors
+135,fr_azide,fr_azide,Number of azide groups,1,Constitutional descriptors
+136,fr_azo,fr_azo,Number of azo groups,1,Constitutional descriptors
+137,fr_barbitur,fr_barbitur,Number of barbiturate groups,1,Constitutional descriptors
+138,fr_benzene,fr_benzene,Number of benzene rings,1,Constitutional descriptors
+139,fr_benzodiazepine,fr_benzodiazepine,Number of benzodiazepines with no additional fused rings,1,Constitutional descriptors
+140,fr_bicyclic,fr_bicyclic,Bicyclic,1,Constitutional descriptors
+141,fr_diazo,fr_diazo,Number of diazo groups,1,Constitutional descriptors
+142,fr_dihydropyridine,fr_dihydropyridine,Number of dihydropyridines,1,Constitutional descriptors
+143,fr_epoxide,fr_epoxide,Number of epoxide rings,1,Constitutional descriptors
+144,fr_ester,fr_ester,Number of esters,1,Constitutional descriptors
+145,fr_ether,fr_ether,Number of ether oxygens (including phenoxy),1,Constitutional descriptors
+146,fr_furan,fr_furan,Number of furan rings,1,Constitutional descriptors
+147,fr_guanido,fr_guanido,Number of guanidine groups,1,Constitutional descriptors
+148,fr_halogen,fr_halogen,Number of halogens,1,Constitutional descriptors
+149,fr_hdrzine,fr_hdrzine,Number of hydrazine groups,1,Constitutional descriptors
+150,fr_hdrzone,fr_hdrzone,Number of hydrazone groups,1,Constitutional descriptors
+151,fr_imidazole,fr_imidazole,Number of imidazole rings,1,Constitutional descriptors
+152,fr_imide,fr_imide,Number of imide groups,1,Constitutional descriptors
+153,fr_isocyan,fr_isocyan,Number of isocyanates,1,Constitutional descriptors
+154,fr_isothiocyan,fr_isothiocyan,Number of isothiocyanates,1,Constitutional descriptors
+155,fr_ketone,fr_ketone,Number of ketones,1,Constitutional descriptors
+156,fr_ketone_Topliss,fr_ketone_Topliss,"Number of ketones excluding diaryl, a,b-unsat.",1,Constitutional descriptors
+157,fr_lactam,fr_lactam,Number of beta lactams,1,Constitutional descriptors
+158,fr_lactone,fr_lactone,Number of cyclic esters (lactones),1,Constitutional descriptors
+159,fr_methoxy,fr_methoxy,Number of methoxy groups -OCH3,1,Constitutional descriptors
+160,fr_morpholine,fr_morpholine,Number of morpholine rings,1,Constitutional descriptors
+161,fr_nitrile,fr_nitrile,Number of nitriles,1,Constitutional descriptors
+162,fr_nitro,fr_nitro,Number of nitro groups,1,Constitutional descriptors
+163,fr_nitro_arom,fr_nitro_arom,Number of nitro benzene ring substituents,1,Constitutional descriptors
+164,fr_nitro_arom_nonortho,fr_nitro_arom_nonortho,Number of non-ortho nitro benzene ring substituents,1,Constitutional descriptors
+165,fr_nitroso,fr_nitroso,"Number of nitroso groups, excluding NO2",1,Constitutional descriptors
+166,fr_oxazole,fr_oxazole,Number of oxazole rings,1,Constitutional descriptors
+167,fr_oxime,fr_oxime,Number of oxime groups,1,Constitutional descriptors
+168,fr_para_hydroxylation,fr_para_hydroxylation,Number of para-hydroxylation sites,1,Constitutional descriptors
+169,fr_phenol,fr_phenol,Number of phenols,1,Constitutional descriptors
+170,fr_phenol_noOrthoHbond,fr_phenol_noOrthoHbond,Number of phenolic OH excluding ortho intramolecular Hbond substituents,1,Constitutional descriptors
+171,fr_phos_acid,fr_phos_acid,Number of phosphoric acid groups,1,Constitutional descriptors
+172,fr_phos_ester,fr_phos_ester,Number of phosphoric ester groups,1,Constitutional descriptors
+173,fr_piperdine,fr_piperdine,Number of piperdine rings,1,Constitutional descriptors
+174,fr_piperzine,fr_piperzine,Number of piperzine rings,1,Constitutional descriptors
+175,fr_priamide,fr_priamide,Number of primary amides,1,Constitutional descriptors
+176,fr_prisulfonamd,fr_prisulfonamd,Number of primary sulfonamides,1,Constitutional descriptors
+177,fr_pyridine,fr_pyridine,Number of pyridine rings,1,Constitutional descriptors
+178,fr_quatN,fr_quatN,Number of quarternary nitrogens,1,Constitutional descriptors
+179,fr_sulfide,fr_sulfide,Number of thioether,1,Constitutional descriptors
+180,fr_sulfonamd,fr_sulfonamd,Number of sulfonamides,1,Constitutional descriptors
+181,fr_sulfone,fr_sulfone,Number of sulfone groups,1,Constitutional descriptors
+182,fr_term_acetylene,fr_term_acetylene,Number of terminal acetylenes,1,Constitutional descriptors
+183,fr_tetrazole,fr_tetrazole,Number of tetrazole rings,1,Constitutional descriptors
+184,fr_thiazole,fr_thiazole,Number of thiazole rings,1,Constitutional descriptors
+185,fr_thiocyan,fr_thiocyan,Number of thiocyanates,1,Constitutional descriptors
+186,fr_thiophene,fr_thiophene,Number of thiophene rings,1,Constitutional descriptors
+187,fr_unbrch_alkane,fr_unbrch_alkane,Number of unbranched alkanes of at least 4 members (excludes halogenated alkanes),1,Constitutional descriptors
+188,fr_urea,fr_urea,Number of urea groups,1,Constitutional descriptors
+189,MaxAbsEStateIndex,Estate Index,"Returns a tuple of EState indices for the molecule, Reference: Hall, Mohney and Kier. JCICS _31_ 76-81 (1991)",2,Topological descriptors
+190,MaxAbsPartialCharge,Partial Charge,Returns molecular charge descriptors,2,Topological descriptors
+191,MaxEStateIndex,Estate Index,"Returns a tuple of EState indices for the molecule, Reference: Hall, Mohney and Kier. JCICS _31_ 76-81 (1991)",2,Topological descriptors
+192,MaxPartialCharge,Partial Charge,Returns molecular charge descriptors,2,Topological descriptors
+193,MinAbsEStateIndex,Estate Index,"Returns a tuple of EState indices for the molecule, Reference: Hall, Mohney and Kier. JCICS _31_ 76-81 (1991)",2,Topological descriptors
+194,MinAbsPartialCharge,Partial Charge,Returns molecular charge descriptors,2,Topological descriptors
+195,MinEStateIndex,Estate Index,"Returns a tuple of EState indices for the molecule, Reference: Hall, Mohney and Kier. JCICS _31_ 76-81 (1991)",2,Topological descriptors
+196,MinPartialCharge,Partial Charge,Returns molecular charge descriptors,2,Topological descriptors
